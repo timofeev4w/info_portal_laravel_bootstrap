@@ -1,0 +1,18 @@
+.blue{
+    color: #0F67B1;
+}
+
+.red{
+    color: #EF4158;
+}
+
+.nav-link:hover{
+    /* background-color: rgba(13, 110, 253, 0.1); */
+    box-shadow: 0px 2px 5px grey;
+}
+
+.content-background{
+    background-image: url('/img/background/background51.png');
+}
+
+/* /home/nikita/DEVELOP/PHP/dolgi_laravel_composer/public/img/background/background26.gif */
