@@ -18,7 +18,7 @@
     {{-- NAVIGATION --}}
     <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-            <a class="navbar-brand fs-3 fw-bold" href="#">
+            <a class="navbar-brand fs-3" href="#">
                 {{-- <img src="{{ asset('/img/logo.svg') }}" alt="" height="35" class="d-inline-block align-text-top"> --}}
                 <span class="blue">Мои</span><span class="red">Долги</span>
             </a>

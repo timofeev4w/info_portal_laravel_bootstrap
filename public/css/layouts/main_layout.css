@@ -1,3 +1,7 @@
+.navbar-brand{
+    font-weight: 1000;
+}
+
 .blue{
     color: #0F67B1;
 }
@@ -8,7 +12,10 @@
 
 .nav-link:hover{
     /* background-color: rgba(13, 110, 253, 0.1); */
-    box-shadow: 0px 2px 5px grey;
+    /* box-shadow: inset 0px 2px 5px grey; */
+    /* box-shadow: inset 0px 2px 5px rgb(75, 75, 75); */
+    /* box-shadow: inset 0px -5px 5px #04487f; */
+    box-shadow: inset 0px -3px #ffffff;
 }
 
 .content-background{
