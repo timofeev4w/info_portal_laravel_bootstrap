@@ -36,7 +36,7 @@
                     </svg>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Вход</a></li>
+                    <li><a class="dropdown-item" href="login">Вход</a></li>
                 </ul>
             </div>
         </div>
@@ -48,11 +48,11 @@
                 <img src="{{ asset('/img/logo/fssp.svg') }}" alt="" height="23" class="d-inline-block align-text-top">
                 Поиск долгов физлиц РФ
             </a>
-            <a href="/" class="col-12 col-md-4 py-2 text-center text-light text-decoration-none fw-bold nav-link">
+            <a href="company" class="col-12 col-md-4 py-2 text-center text-light text-decoration-none fw-bold nav-link">
                 <img src="{{ asset('/img/logo/fssp.svg') }}" alt="" height="23" class="d-inline-block align-text-top">
                 Поиск долгов юрлиц РФ
             </a>
-            <a href="/" class="col-12 col-md-4 py-2 text-center text-light text-decoration-none fw-bold nav-link">
+            <a href="gibdd" class="col-12 col-md-4 py-2 text-center text-light text-decoration-none fw-bold nav-link">
                 <img src="{{ asset('/img/logo/gibdd.png') }}" alt="" height="27" class="d-inline-block align-text-top">
                 Поиск штрафов ГИБДД
             </a>

@@ -11,35 +11,19 @@
     <div class="col-12 col-md-5">
         <div class="row">
             <h5 class="fw-bold text-center">
-                Поиск по базе данных судебных приставов
+                Поиск по базе штрафов ГИБДД
             </h5>
         </div>
         
-        <form method="POST" action="/" class="row g-3 needs-validation" novalidate>
+        <form method="POST" action="gibdd" class="row g-3 needs-validation" novalidate>
             @csrf
-            <input type="text" class="form-control" id="first-name" name="first-name" placeholder="Имя" value="{{ old('first-name') }}">
+            <input type="text" class="form-control" id="auto-number" name="auto-number" placeholder="Номер автомобиля: А123БВ178" value="{{ old('auto-number') }}">
             <div class="text-danger mt-0">
-                @error('first-name')
+                @error('auto-number')
                   {{ $message }}
                 @enderror
             </div>
             
-            <input type="text" class="form-control" id="second-name" name="second-name" placeholder="Фамилия" value="{{ old('second-name') }}">
-            <div class="text-danger mt-0">
-                @error('second-name')
-                  {{ $message }}
-                @enderror
-            </div>
-
-            <input type="text" class="form-control" id="birth-date" name="birth-date" placeholder="Дата рождения в формате: 06.04.1972" value="{{ old('birth-date') }}">
-            <small class="text-secondary mt-0">06.04.1972</small>
-            <div class="text-danger mt-0">
-                @error('birth-date')
-                  {{ $message }}
-                @enderror
-            </div>
-
-            {{-- <input type="date" class="form-control" id="birth-date" name="birth-date" placeholder="dd-mm-yyyy"> --}}
             <input type="tel" class="form-control" id="phone-number" name="phone-number" placeholder="Телефон в формате: 89052446424" value="{{ old('phone-number') }}">
             <small class="text-secondary mt-0">89052446424</small>
             <div class="text-danger mt-0">

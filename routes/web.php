@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\GibddController;
+use App\Http\Controllers\IndividualController;
 use App\Http\Controllers\PaymentController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +21,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::post('/', [IndividualController::class, 'redirectToPayment']);
+
+Route::get('company', function () {
+    return view('company');
+});
+
+Route::get('gibdd', function () {
+    return view('gibdd');
+});
+Route::post('gibdd', [GibddController::class, 'redirectToPayment']);
+
+Route::get('login', [UserController::class, 'loginShow']);
+Route::post('login', [UserController::class, 'login']);
 
 Route::get('payment', [PaymentController::class, 'show']);
-Route::post('payment', [PaymentController::class, 'redirectToPayment']);
+
