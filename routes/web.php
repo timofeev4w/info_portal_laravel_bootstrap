@@ -37,3 +37,10 @@ Route::post('login', [UserController::class, 'login']);
 
 Route::get('payment', [PaymentController::class, 'show']);
 
+Route::get('contacts', function () {
+    return view('contacts');
+});
+
+Route::get('tariffs', function () {
+    return view('tariffs');
+});

@@ -18,7 +18,7 @@
     {{-- NAVIGATION --}}
     <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-            <a class="navbar-brand fs-3" href="#">
+            <a class="navbar-brand fs-3" href="/">
                 {{-- <img src="{{ asset('/img/logo.svg') }}" alt="" height="35" class="d-inline-block align-text-top"> --}}
                 <span class="blue">Мои</span><span class="red">Долги</span>
             </a>
@@ -63,6 +63,13 @@
     <div class="content-background pt-5">
         <div class="container py-3 px-3 shadow bg-white">
             @yield('content')
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row text-center mt-5">
+            <a href="contacts">Контакты и реквизиты</a>
+            <a href="tariffs">Тарифы</a>
         </div>
     </div>
     
