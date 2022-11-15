@@ -44,3 +44,19 @@ Route::get('contacts', function () {
 Route::get('tariffs', function () {
     return view('tariffs');
 });
+
+Route::get('payment_methods', function () {
+    return view('payment_methods');
+});
+
+Route::get('payment_security', function () {
+    return view('payment_security');
+});
+
+Route::get('goods_return', function () {
+    return view('goods_return');
+});
+
+Route::get('personal_policy', function () {
+    return view('personal_policy');
+});
