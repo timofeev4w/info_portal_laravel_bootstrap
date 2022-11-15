@@ -28,13 +28,13 @@
                     Здесь виджет оплаты...
                 </div>
                 <div class="col-12 col-md-5 text-start text-secondary">
-                    <a href="payment_methods">Платежи</a>
+                    <a href="payment_methods" target="_blank" class="text-secondary">Платежи</a>
                     <br>
-                    <a href="payment_security">Гарантии безопасности онлайн платежей</a>
+                    <a href="payment_security" target="_blank" class="text-secondary">Гарантии безопасности онлайн платежей</a>
                     <br>
-                    <a href="goods_return">Возврат</a>
+                    <a href="goods_return" target="_blank" class="text-secondary">Возврат</a>
                     <br>
-                    <a href="personal_policy">Политика обработки персональных данных</a>
+                    <a href="personal_policy" target="_blank" class="text-secondary">Политика обработки персональных данных</a>
                 </div>
             </div>
         </div>

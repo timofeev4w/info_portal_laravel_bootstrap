@@ -12,5 +12,5 @@ $(document).ready(function() {
         }
     }
 
-    let progressBar = setInterval(searchProgress, 1)
+    let progressBar = setInterval(searchProgress, 90)
 })
