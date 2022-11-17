@@ -24,4 +24,16 @@
             <b>Email:</b> support@moidolgi.org
         </div>
     </div>
+
+    <div class="row">
+        <div class="col">
+            <b>Телефон:</b> +7-964-333-64-37
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <b>Адрес:</b> СПб, Колпино, Заводской пр., д. 56, кв. 191
+        </div>
+    </div>
 @endsection

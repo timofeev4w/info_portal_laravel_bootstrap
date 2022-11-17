@@ -19,4 +19,8 @@ class UserController extends Controller
             'noLogin' => $noLogin
         ]);
     }
+
+    // public function showRegistration() {
+    //     return view('registration');
+    // }
 }

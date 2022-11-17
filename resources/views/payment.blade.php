@@ -35,6 +35,8 @@
                     <a href="goods_return" target="_blank" class="text-secondary">Возврат</a>
                     <br>
                     <a href="personal_policy" target="_blank" class="text-secondary">Политика обработки персональных данных</a>
+                    <br>
+                    <a href="docs/moidolgi_offer.pdf" target="_blank" class="text-secondary">Оферта</a>
                 </div>
             </div>
         </div>

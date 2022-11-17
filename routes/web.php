@@ -60,3 +60,10 @@ Route::get('goods_return', function () {
 Route::get('personal_policy', function () {
     return view('personal_policy');
 });
+
+// Route::get('offer', function () {
+//     return view('offer');
+// });
+
+// Route::get('registration', [UserController::class, 'showRegistration']);
+// Route::post('registration', [UserController::class, 'registration']);
